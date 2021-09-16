@@ -1,0 +1,24 @@
+$ git init <project name> 
+    Creates a new local repository with specified name
+$ git status
+    Lists all new or modified files to be committed
+$ git config ——global user.name “Ganesh Bhure”
+$ git config ——global user.email “ganesh.bhure1@gmail.com”
+    Defines name and email address you want to associate with your commit transactions
+$ git config --list
+$ git add <filename>   OR          $ git add .
+    Prepare the files for commit by logically moving into a staged area
+$ git commit -m <commit message>
+    Adds the staged files into version history
+$ git push <branch>
+    Uploads all local branch commits to remote repository 
+$ git diff     OR    $ git diff <commit ID1> <commit ID2>
+$ git branch
+    List all branches in the local repository
+$ git branch <branch_name>
+    Create a branch
+$ git checkout <branch_name>
+    Switch to specific branch
+$ git log --all --decorate --oneline --graph
+$ git clone <repo-url>
+    Clone existing repository
